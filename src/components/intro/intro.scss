@@ -1,0 +1,44 @@
+.intro{
+    display: flex;
+    background-image: url("bg.jpg");
+    background-size: 1310px 600px;
+
+    .left{
+        flex: 0.5;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        h2{
+            font-size: 40px;
+            color: wheat;
+        }
+
+        h1{
+            font-size: 50px;
+            color: white;
+        }
+
+        h3{
+            font-size: 40px;
+            color: wheat;
+        }
+    }
+
+    .right{
+        flex: 0.5;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        .imgContainer{
+            width: 400px;
+            height: 400px;
+            
+            img{
+                height: 360px;
+                width: 360px;
+            }
+        }
+    }
+}
