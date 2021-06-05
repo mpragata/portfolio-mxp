@@ -4,7 +4,7 @@ import pic from "./das.PNG"
 
 export default function Intro() {
     return (
-        <div className="intro">
+        <div className="intro" id="intro">
             <div className="left">
                 <div className="textContainer">
                     <h2>Hi there! I'm</h2>

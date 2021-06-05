@@ -1,7 +1,9 @@
 .intro{
     display: flex;
     background-image: url("bg.jpg");
-    background-size: 1310px 600px;
+    background-size: 1350px 600px;
+    width: 100vw;
+    height: calc(100vh - 70px);
 
     .left{
         flex: 0.5;
