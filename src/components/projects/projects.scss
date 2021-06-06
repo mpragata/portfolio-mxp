@@ -1,13 +1,15 @@
 .projects{
     width: 100vw;
+    background-color: rgb(228, 218, 218);
+    height: 115vh;
 
     h2{
         justify-content: center;
         align-items: center;
         display: flex;
         font-size: 30px;
-        margin-top: 10px;
-        margin-bottom: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .projContainer{
@@ -18,10 +20,79 @@
         flex-wrap: wrap;
 
         .item{
-            background-color: red;
             height: 300px;
             width: 425px;
             margin: 10px;
+            display: flex;
+            border-radius: 5px;
+            background-color: wheat;
+
+            .left{
+                flex: 0.4;
+
+                .textContainer{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    margin-top: 30px;
+                    flex-direction: column;
+
+                    .title{
+                        background-color: white;
+                        height: 40px;
+                        width: 163px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 3px;
+                        border-radius: 5px;
+                    }
+
+                    .description{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: white;
+                        height: 100px;
+                        width: 163px;
+                        margin-left: 3px;
+                        margin-top: 20px;
+                        border-radius: 5px;
+                        
+                        p{
+                            margin-left: 5px;
+                        }
+                    }
+                    .github{
+                        width: 100px;
+                        height: 40px;
+                        border-radius: 5px;
+                        margin-top: 50px;
+                        cursor: pointer;
+                        outline: none;
+                        border: none;
+                        background-color: white;
+
+                        &:hover{
+                            background-color: black;
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            .right{
+                flex: 0.6;
+                overflow-y: hidden;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+
+                img{
+                    width: 250px;
+                    height: 290px;
+                }
+            }
         }
     }
 }
