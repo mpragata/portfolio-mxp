@@ -1,4 +1,59 @@
 .about{
     width: 100vw;
     height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h2{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .textContainer{
+        height: 460px;
+        width: 800px;
+        font-size: 20px;
+
+        p{
+            line-height: 1.5;
+        }
+
+        .iconContainer{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: inherit;
+            height: 100px;
+
+            .tooltip{
+                overflow: hidden;
+            }
+
+            .displayHtml{
+                font-size: 60px;
+                color: red;
+            }
+            .displayCss{
+                font-size: 60px;
+                color: blue;
+            }
+            .displayJs{
+                font-size: 60px;
+                color: yellow;
+            }
+            .displayReact{
+                font-size: 60px;
+                color: blue;
+            }
+            .displayPython{
+                font-size: 60px;
+                color: green;
+            }
+        }
+    }
 }
