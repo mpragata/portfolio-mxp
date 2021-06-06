@@ -1,4 +1,55 @@
 .contacts{
     width: 100vw;
-    height: calc(100vh - 70px);
+    height: calc(40vh - 70px);
+    background-color: rgb(44, 40, 40);
+    
+    h2{
+        color: wheat;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: wheat;
+
+        .item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            
+            .icon{
+                font-size: 40px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .lineContainer{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .line{
+            width: 50%;
+        }
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        color: wheat;
+
+        .copyright{
+            font-size: 15px;
+            margin-left: 5px;
+        }
+    }
 }
