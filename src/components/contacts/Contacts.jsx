@@ -40,7 +40,7 @@ export default function Contacts() {
             </div>
             <div className="footer">
                 <p>
-                    Pragata, Marc Xavier
+                    PRAGATA, Marc Xavier
                     <FontAwesomeIcon className="copyright"icon={faCopyright}/>
                 </p>
             </div>
