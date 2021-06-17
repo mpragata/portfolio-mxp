@@ -6,6 +6,7 @@ import react_tic_tac_toe from './react_tic_tac_toe.PNG'
 import react_web_portfolio from './react_web_portfolio.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faServer} from '@fortawesome/free-solid-svg-icons'
 
 export default function Projects() {
     // const projectData = [
@@ -42,14 +43,19 @@ export default function Projects() {
                     <div className="left">
                         <div className="textContainer">
                             <div className="title">
-                                <h3>React Notes App</h3>
+                                <h3>Notes App</h3>
                             </div>
                             <div className="description">
                                 <p>Simple Notes App using React</p>
                             </div>
                             <a href="https://github.com/mpragata/react-notes-app" target="_blank" rel="noreferrer">
-                                <button className="github">
+                                <button className="buttonIcon">
                                     View Code <FontAwesomeIcon icon={faGithub}/>
+                                </button>
+                            </a>
+                            <a href="https://mxpnotesapp.netlify.app" target="_blank" rel="noreferrer">
+                            <button className="buttonIcon">
+                                    View Live <FontAwesomeIcon icon={faServer}/>
                                 </button>
                             </a>
                         </div>
@@ -62,14 +68,19 @@ export default function Projects() {
                     <div className="left">
                         <div className="textContainer">
                             <div className="title">
-                                <h3>React Calculator</h3>
+                                <h3>Calculator</h3>
                             </div>
                             <div className="description">
                                 <p>Simple Calculator using React</p>
                             </div>
                             <a href="https://github.com/mpragata/react_calc" target="_blank" rel="noreferrer">
-                                <button className="github">
+                                <button className="buttonIcon">
                                     View Code <FontAwesomeIcon icon={faGithub}/>
+                                </button>
+                            </a>
+                            <a href="https://mxpcalc.netlify.app" target="_blank" rel="noreferrer">
+                            <button className="buttonIcon">
+                                    View Live <FontAwesomeIcon icon={faServer}/>
                                 </button>
                             </a>
                         </div>
@@ -82,14 +93,19 @@ export default function Projects() {
                     <div className="left">
                         <div className="textContainer">
                             <div className="title">
-                                <h3>React Tic-Tac-Toe</h3>
+                                <h3>Tic-Tac-Toe</h3>
                             </div>
                             <div className="description">
                                 <p>Tic-Tac-Toe Game using React made with udemy guide</p>
                             </div>
                             <a href="https://github.com/mpragata/react-tic-tac-toe-udemy" target="_blank" rel="noreferrer">
-                                <button className="github">
+                                <button className="buttonIcon">
                                     View Code <FontAwesomeIcon icon={faGithub}/>
+                                </button>
+                            </a>
+                            <a href="https://mxptictactoe.netlify.app" target="_blank" rel="noreferrer">
+                            <button className="buttonIcon">
+                                    View Live <FontAwesomeIcon icon={faServer}/>
                                 </button>
                             </a>
                         </div>
@@ -108,8 +124,13 @@ export default function Projects() {
                                 <p>This web portfolio made using React (Work in Progress)</p>
                             </div>
                             <a href="https://github.com/mpragata/portfolio-mxp" target="_blank" rel="noreferrer">
-                                <button className="github">
+                                <button className="buttonIcon">
                                     View Code <FontAwesomeIcon icon={faGithub}/>
+                                </button>
+                            </a>
+                            <a href="https://marcxavierpragata.netlify.app">
+                            <button className="buttonIcon">
+                                    View Live <FontAwesomeIcon icon={faServer}/>
                                 </button>
                             </a>
                         </div>
