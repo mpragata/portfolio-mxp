@@ -4,6 +4,7 @@ import react_notes_app from './react_notes_app.PNG'
 import react_calc from './react_calc.PNG'
 import react_tic_tac_toe from './react_tic_tac_toe.PNG'
 import react_web_portfolio from './react_web_portfolio.PNG'
+import react_weather from './react_weather.PNG'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faServer} from '@fortawesome/free-solid-svg-icons'
@@ -62,6 +63,31 @@ export default function Projects() {
                     </div>
                     <div className="right">
                         <img src={react_notes_app} alt=""/>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className="left">
+                        <div className="textContainer">
+                            <div className="title">
+                                <h3>Weather App</h3>
+                            </div>
+                            <div className="description">
+                                <p>Current Temp and Weather using Openweathermap API</p>
+                            </div>
+                            <a href="https://github.com/mpragata/react_weather_app" target="_blank" rel="noreferrer">
+                                <button className="buttonIcon">
+                                    View Code <FontAwesomeIcon icon={faGithub}/>
+                                </button>
+                            </a>
+                            <a href="https://mxpweather.netlify.app" target="_blank" rel="noreferrer">
+                            <button className="buttonIcon">
+                                    View Live <FontAwesomeIcon icon={faServer}/>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <img src={react_weather} alt=""/>
                     </div>
                 </div>
                 <div className="item">
